@@ -1,14 +1,18 @@
-* {
-    margin: 0;
-    padding: 0;
+.jumbotron {
+    width: 960px;
+    margin: 20px 0 0 0;
 }
+
 
 .navbar .navbar-brand {
     background: #4aaaa5 !important;
     color: #ffffff;
     padding: 15px;  
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0;
+    margin: 0 0 0 11%;
+}
+.navbar-nav {
+    margin: 0 13% 0 0;
 }
 
 body {
@@ -28,3 +32,39 @@ footer {
     font-size: 10px;
     border-top: 5px solid #4aaaa5;
 }   
+
+.card {
+    margin: 0 auto;
+    background:#ffffff;
+    color: #777777;
+} 
+
+.container {
+    margin: 0 0 0 20px;
+}
+
+.row {
+    margin: 20px 0 0 0;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 3% 0 0 0;
+    padding: 0 0 2% 0;
+    border-bottom: 1px solid rgb(211, 214, 213);
+    width: 95%;
+}
+
+hr {
+    background: rgb(211, 214, 213);
+    width: 96%;
+}
+
+.image-wrapper {
+    margin: 2.8% 2% 0 0;
+}
+
+
