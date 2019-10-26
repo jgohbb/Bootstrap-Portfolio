@@ -9,19 +9,22 @@
     <link rel="stylesheet" type="text/CSS" href="assets/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">James Goh</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="index.html">About</a>
-            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light max-width=960px">
+        <div class="navbar container">
+          <a class="navbar-brand" href="index.html">James Goh</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-item nav-link" href="index.html">About</a>
+              <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-item nav-link" href="contact.html">Contact</a>  
+            </div>
           </div>
-        </div>
+        </div>  
     </nav>
+    
     
 
     <div class="card" style="width: 960px; margin-top: 20px">
@@ -32,13 +35,18 @@
 
         <form>
           <div class="form-group">
+            <label for="exampleFormControlInput1">Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder=" Anna Smith">
+          </div>
+
+          <div class="form-group">
             <label for="exampleFormControlInput1">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
 
           <div class="form-group">
-            <label for="exampleFormControlTextarea1">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
           </div>
 
           <button type="submit" class="btn btn-primary">Sign in</button>
@@ -48,11 +56,10 @@
     </div>
   
   
-    <footer class="page-footer font-small blue fixed-bottom">
-      <div class="footer-copyright text-center py-3">Copyright ©</a>
-      </div>
+    <footer class="page-footer font-small blue sticky-bottom">
+        <div class="footer-copyright text-center py-3">Copyright ©</a>
+        </div>
     </footer>
-
 
       
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -1,18 +1,27 @@
-.jumbotron {
-    width: 960px;
-    margin: 20px 0 0 0;
+/* GENERAL incl Navbar */
+.navbar {
+    padding: 0;
+    border-bottom: 1px thin #777777;
 }
 
-
-.navbar .navbar-brand {
+.navbar-brand {
     background: #4aaaa5 !important;
-    color: #ffffff;
-    padding: 15px;  
+    color: #ffffff !important;
+    padding: 20px 34px 20px 34px;  
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0 0 0 11%;
+    margin: 0 0 0 0;
+    position: relative;
+    font-size: 1.5em;
+    font-weight: bold;
+
 }
 .navbar-nav {
-    margin: 0 13% 0 0;
+    margin: 0 0 0 0;
+}
+
+
+.nav-item {
+    margin-left: 3px;   
 }
 
 body {
@@ -31,28 +40,37 @@ footer {
     padding-bottom: -5px;
     font-size: 10px;
     border-top: 5px solid #4aaaa5;
+    max-block-size: 1300px !important;
+
 }   
 
+/* ABOUT page */
 .card {
     margin: 0 auto;
     background:#ffffff;
     color: #777777;
 } 
 
-.container {
-    margin: 0 0 0 20px;
+.card-body {
+    flex: inherit;
+    padding: 0 !important;
+    margin: 2% 4% 0 2.5% !important;
+    line-height: 30px;
 }
 
-.row {
-    margin: 20px 0 0 0;
+.container {
+    margin: 0 auto;
+    width: 100% !important;
+    max-width: 960px !important;
+    clear: both;
 }
 
 h1 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 1.4em;
     font-weight: bold;
-    margin: 3% 0 0 0;
+    margin: 3% 0 0 2.5%;
     padding: 0 0 2% 0;
     border-bottom: 1px solid rgb(211, 214, 213);
     width: 95%;
@@ -64,7 +82,16 @@ hr {
 }
 
 .image-wrapper {
-    margin: 2.8% 2% 0 0;
+    margin: 2.8% 2% 5px 2.5%;
+
+}
+
+/* CONTACT page */
+
+form {
+    width: 96% !important;
+    margin: 2% 5% 2% 2% !important;
+    height: 30%;
 }
 
 
