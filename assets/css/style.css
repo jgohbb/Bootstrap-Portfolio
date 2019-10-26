@@ -35,13 +35,14 @@ body {
 footer {
     background: #666666 !important;
     color: #ffffff;
+    clear: both;
+    overflow: auto;
     font-size: 10px;
     margin-top: 20px;
     padding-bottom: -5px;
     font-size: 10px;
     border-top: 5px solid #4aaaa5;
     max-block-size: 1300px !important;
-
 }   
 
 /* ABOUT page */
@@ -92,6 +93,28 @@ form {
     width: 96% !important;
     margin: 2% 5% 2% 2% !important;
     height: 30%;
+}
+
+
+
+/* PORTFOLIO page */
+img {
+    float: left;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px; 
+    background: #4aaaa5;
+    color: #ffffff; 
+    position: absolute;
+    top: 65%;
+    width: 100%; 
+    padding: 12px 0 12px 0;
+}
+
+.card {
+    border: none !important;
 }
 
 
